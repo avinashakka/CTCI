@@ -25,7 +25,12 @@ class BalanceBT
   
   public static int getHeight(Node current)
   {
-    
+      if(current == null)
+        return 0;
+      else
+      {
+        return Math.max(getHeight(current.left)+1,getHeight(current.right)+1);
+      }
   }
   
 }
