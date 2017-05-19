@@ -1,5 +1,5 @@
 //Q:4.1
-//Function to check if a binary tree is balanced.
+//Function to check if a binary search tree is balanced.
 //With an example case
 
 import java.io.*;
